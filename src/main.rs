@@ -39,7 +39,7 @@ fn main() -> Result<(), String> {
     let alphabet: Vec<char> = "abcdefghijklmnopqrstuvwxyz".chars().collect();
 
     let mut typing_monkey =
-        TypingMonkey::new(wordlist, alphabet, longest_words, longest_words_path, 5);
+        TypingMonkey::new(wordlist, alphabet, longest_words, longest_words_path, 15);
 
     loop {
         typing_monkey.print_next();
