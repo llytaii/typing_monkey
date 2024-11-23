@@ -1,0 +1,10 @@
+[package]
+name = "typing_monkey"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ahash = "0.8.11"
+colored = "2.1.0"
+config = "0.14.1"
+rand = "0.8.5"
